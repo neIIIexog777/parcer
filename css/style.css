@@ -145,7 +145,7 @@ header{
 .main_screen{
     width: 100%;
     height: 50vw;
-    background-image:url(/img/main_screen.jpg);
+    background-image:url(../img/main_screen.jpg);
     background-size: cover;
 }
 .main_screen_txt{
@@ -243,7 +243,7 @@ appearance: none;
 
 /* Рисуем стрелочку */
 .select-wrapper::before {
-	content:url('/img/chevron-down.png');
+	content:url('../img/chevron-down.png');
 	position: absolute;
 	top: 30px;
 	right: 10px;
